@@ -1,5 +1,12 @@
-data/electricity_gap.csv
-data/bar_chart_race.mp4
-data/bar_chart_race.gif
+# Generated data files (re-generate with scripts/)
+data/*.csv
+data/*.mp4
+data/*.gif
+data/anomaly-report.md
+data/*/anomaly-report.md
+data/*/*.csv
+data/*/*.mp4
+data/*/*.gif
+data/*/config.json
 __pycache__/
 *.pyc
