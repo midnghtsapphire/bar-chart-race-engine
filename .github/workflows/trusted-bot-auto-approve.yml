@@ -34,8 +34,9 @@ jobs:
           script: |
             const { owner, repo } = context.repo;
 
-            // Trusted bot authors — GitHub login names (case-insensitive match)
+            // Trusted bot authors + org owner — GitHub login names (case-insensitive match)
             const TRUSTED_BOTS = [
+              'midnghtsapphire',
               'devin-ai-integration[bot]',
               'devin-ai[bot]',
               'github-actions[bot]',
