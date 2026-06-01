@@ -1,0 +1,5 @@
+data/electricity_gap.csv
+data/bar_chart_race.mp4
+data/bar_chart_race.gif
+__pycache__/
+*.pyc
